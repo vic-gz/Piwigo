@@ -510,7 +510,7 @@ SELECT DISTINCT(id)
       $page,
       array(
         'title' => '<a href="'.duplicate_index_url(array('start'=>0)).'">'
-                    .$conf['top_number'].' '.l10n('Most visited').'</a>',
+                    .l10n('Most visited').'</a>',
         'items' => query2array($query,null, 'id'),
         )
       );
@@ -536,7 +536,7 @@ SELECT DISTINCT(id)
       $page,
       array(
         'title' => '<a href="'.duplicate_index_url(array('start'=>0)).'">'
-                    .$conf['top_number'].' '.l10n('Best rated').'</a>',
+                    .l10n('Best rated').'</a>',
         'items' => query2array($query,null, 'id'),
         )
       );
