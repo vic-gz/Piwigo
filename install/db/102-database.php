@@ -18,7 +18,7 @@ if ('mysql' == $conf['dblayer'])
 {
   pwg_query('
     ALTER TABLE '.USER_INFOS_TABLE.' 
-      CHANGE `nb_image_page` `nb_image_page` SMALLINT(3) UNSIGNED NOT NULL DEFAULT 15
+      CHANGE `nb_image_page` `nb_image_page` SMALLINT(3) UNSIGNED NOT NULL DEFAULT 18
   ;');
 }
 

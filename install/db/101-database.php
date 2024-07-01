@@ -18,7 +18,7 @@ if ('mysql' == $conf['dblayer'])
 {
   pwg_query('
     ALTER TABLE '.USER_INFOS_TABLE.' 
-      ADD COLUMN `nb_image_page` smallint(3) unsigned NOT NULL default \'15\'
+      ADD COLUMN `nb_image_page` smallint(3) unsigned NOT NULL default \'18\'
   ;');
 }
 else if (in_array($conf['dblayer'], array('pgsql', 'sqlite', 'pdo-sqlite')))
