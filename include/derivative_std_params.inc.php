@@ -210,10 +210,10 @@ final class ImageStdParams
       IMG_XXSMALL => new DerivativeParams( SizingParams::classic(240,240) ),
       IMG_XSMALL => new DerivativeParams( SizingParams::classic(432,324) ),
       IMG_SMALL => new DerivativeParams( SizingParams::classic(576,432) ),
-      IMG_MEDIUM => new DerivativeParams( SizingParams::classic(792,594) ),
-      IMG_LARGE => new DerivativeParams( SizingParams::classic(1008,756) ),
-      IMG_XLARGE => new DerivativeParams( SizingParams::classic(1224,918) ),
-      IMG_XXLARGE => new DerivativeParams( SizingParams::classic(1656,1242) ),
+      IMG_MEDIUM => new DerivativeParams( SizingParams::classic(854,854) ),
+      IMG_LARGE => new DerivativeParams( SizingParams::classic(1920,1920) ),
+      IMG_XLARGE => new DerivativeParams( SizingParams::classic(2560,2560) ),
+      IMG_XXLARGE => new DerivativeParams( SizingParams::classic(3840,3840) ),
     );
     $now = time();
     foreach($arr as $params)
